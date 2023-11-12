@@ -1,0 +1,241 @@
+style {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(17, 17, 160);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+nav {
+    text-align: center;  
+    padding: 20px;
+    color: rgb(32, 72, 147);
+    
+    
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    padding: 20px;
+}
+
+.footer {
+    background-color:rgb(138, 138, 199);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    
+}
+
+.training-section {
+    width: 100%;
+    padding-bottom: 50px;
+    /* background: url("img1.jpg");*/
+}
+
+.training-section h1 {
+    text-align: center;
+    padding: 4px 0px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.training-items {
+    flex-basis: 23%;
+    background: white;
+    text-align: center;
+    padding: 20px 0px;
+    box-shadow: 0px 0px 10px 3px rgb(193, 183, 183);
+    margin: 10px 0px;
+}
+
+.training-items h3 {
+    padding: 10px 0px;
+}
+
+.training-items p {
+    font-size: 14px;
+    padding: 10px;
+}
+.topmrg {
+  margin-top: 4px;
+  
+ 
+} 
+.training-items button {
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin: 10px 0px;
+    background: rgb(17, 17, 160);
+}
+
+.training-items:hover {
+    background: rgb(17, 17, 160);
+}
+
+.training-items:hover h3,
+.training-items:hover p {
+    color: white;
+
+}
+
+.training-items:hover button {
+    background: white;
+    color: rgb(17, 17, 160);
+    cursor: pointer;
+}
+
+.training-items img {
+    width: 50px;
+    
+}
+
+.seprate-top {
+    display: block;
+    width: 75%;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    text-decoration: none;
+}
+
+
+.topbar {
+   
+    align-items: center;
+    width: 100%;
+    background-color: rgb(17, 17, 160);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+li{
+    margin-left: 20px;
+    padding: 10px;
+    font-weight: bolder;
+}
+.seprate-bottom {
+    display: block;
+    width: 90%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+
+}
+.set{
+    margin-top: 0%;
+    padding: 2%;
+}
+.form {
+    border: 20px; ;
+    font-size: 20px;
+    padding: 40px 0px;
+    flex-basis: 23px;
+    width: 30%;
+    margin: auto;
+    
+    
+    box-shadow: 0px 0px 10px 3px rgb(193, 183, 183);
+    border-radius: 30px;
+
+}
+
+.submit {
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin: 10px 0px;
+    background: rgb(17, 17, 160);
+}
+
+.submit:hover {
+    background: rgb(69, 156, 233);
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.t1 {
+    width: 70%;
+}
+.bdr{
+    border-spacing: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.marg {
+    color: rgb(22, 22, 181);
+    text-align: center;
+}
+.imgcenter {
+
+margin-left: 5%;
+padding: 10px 0px;
+
+}
+
+
+a {
+    color: rgb(22, 22, 181);
+    text-decoration: none;
+
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    .container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .training-item {
+        margin: 10px 0px;
+    }
+
+    .form {
+        width: 100%;
+        flex-direction: column;
+        margin: 10px 0px;
+    }
+}
